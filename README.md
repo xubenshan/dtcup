@@ -1,22 +1,11 @@
-# The `LiteSolution` document
+# 第十届大唐杯真题及答案
 
-This template provides a light and fresh template, mainly used for typesetting solutions of final, textbook and other exercises.
+## 注意事项
 
-The template has been developed based on [ElegantBook](https://ctan.org/pkg/elegantbook) and [VividBooK](https://github.com/Azure1210/VividBooK) and has ported and improved the chapter design module code of the [Legrand Orange Book Template](https://www.overleaf.com/latex/templates/the-legrand-orange-book-template-english/jtctyfmnpppc).
+* 答案仅供参考，若有问题，可联系我。QQ号：18653433759
 
-Modules of `LiteSolution` provide the following supports:
+* 因为最近任务繁重，烦心事也很多，没什么精力。今年（2024年）不可能每道题都附有详细的解析。跟大家道歉，之前答应大家会写详细的解析。
 
+* 我计划明年把这几年的大唐杯真题都汇总一下，每道题都附有详细的解析。（先画个大饼）
 
-**Welcome to pull requests
-[here](https://github.com/xiamyphys/LiteSolution).**
-
-## License
-
-This work may be distributed and/or modified under the conditions of the
-[LaTeX Project Public License](http://www.latex-project.org/lppl.txt),
-either version 1.3c of this license or (at your option) any later version.
-
-This work has the LPPL maintenance status `maintained`.
-
-The Current Maintainer of this work is
-[Mingyu Xia](https://www.ctan.org/author/xia-my).
+  
