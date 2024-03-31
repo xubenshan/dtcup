@@ -2,18 +2,18 @@
 \fancyhead[L]{\color{H6}\kaishu\faIcon{atom}\;第十届「大唐杯」省赛A组真题第二套}
 \fancyhead[R]{\color{H6}\kaishu\rightmark\,}
 
-\date{2023年4月16日}{}{\href{https://qm.qq.com/q/UPbGudx8cK}{\textbf{才疏学浅的小熊}}}
+\date{2023年4月15日}{}{\href{https://qm.qq.com/q/UPbGudx8cK}{\textbf{才疏学浅的小熊}}}
 {}
 {https://ctan.org/pkg/litesolution}{CTAN}
-{https://github.com/xubenshan}{GitHub}
+{https://github.com/xubenshan/dtcup}{GitHub}
 
-注：答案仅供参考，若有问题，请联系我。QQ号：1782622988
+源码已上传至Github，有需要的同学可以自取，见右侧二维码。
 
 \section{单选题（共30道题，共90分）}
 
 
 
-\begin{choice}{B}[节能]
+\begin{choice}{D}[]
 	C-V2X中，车与RSU之间的通信接口是
 	\begin{tasks}(4)
 		\task Ng
@@ -24,7 +24,7 @@
 \end{choice}
 
 
-\begin{choice}{B}[5G无线技术]
+\begin{choice}{A}[]
 	在5G NR网络中终端在初始接入过程中，基站向核心网发的第一条信息是
 	\begin{tasks}(2)
 		\task Initial UE Message
@@ -37,7 +37,7 @@
 
 
 
-\begin{choice}{A}[5G无线技术]
+\begin{choice}{D}[]
 	NR系统中，全双工的最大难点在于
 	\begin{tasks}(2)
 		\task 滤波
@@ -48,7 +48,7 @@
 \end{choice}
 
 
-\begin{choice}{D}[5G协议与信令]
+\begin{choice}{B}[]
 	IPMT产品生命周期管理阶段的周期长短取决于什么因素
 	\begin{tasks}(2)
 		\task 产品亏损数额
@@ -70,7 +70,7 @@
 %               \sokka{D}
 %     \end{itemize}
 % \end{solution}
-\begin{choice}{B}[节能]
+\begin{choice}{D}[]
 	对于每个服务小区，基站可以通过专用RRC信令给UE配置多个DL BWP和多个UL BWP，最多各配多少个
 	\begin{tasks}(1)
 		\task 12
@@ -80,7 +80,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{D}[]
+\begin{choice}{B}[]
 	5G SA场景下，Uu口控制面协议从上到下的次序依次是
 	\begin{tasks}(2)
 		\task SDAP-PDCP-RLC-MAC-PHY
@@ -90,10 +90,12 @@
 	\end{tasks}
 \end{choice}
 
+\begin{solution}
+	用户面独有SDAP。
+\end{solution}
 
 
-
-\begin{choice}{D}[最大分辨力]
+\begin{choice}{A}[]
 	在通信系统中，正常情况下天馈系统驻波比的正常范围是
 	\begin{tasks}(2)
 		\task 1-1.5
@@ -104,7 +106,7 @@
 \end{choice}
 
 
-\begin{choice}{B}[双缝干涉]
+\begin{choice}{A}[]
 	在5G网络架构中，以下选项哪一项是AMF的功能
 	\begin{tasks}(2)
 		\task 注册管理
@@ -133,7 +135,7 @@
 %\vspace{-.75em}
 
 
-\begin{choice}{A}[迈克尔逊干涉仪]
+\begin{choice}{A}[]
 	关于基站节能，以下说法正确的是
 	\begin{tasks}(1)
 		\task 基站应该在保证用户体验的前提下，尽可能多的节能。
@@ -144,7 +146,7 @@
 \end{choice}
 
 
-\begin{choice}{A}[光栅]
+\begin{choice}{D}[]
 	5G NR初始随机接入过程中哪条消息表示竞争解决
 	\begin{tasks}(4)
 		\task MSG3
@@ -154,7 +156,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{A}[]
+\begin{choice}{D}[]
 	下列传输介质中，传输效率最高的是
 	\begin{tasks}(4)
 		\task 无线介质
@@ -165,7 +167,7 @@
 \end{choice}
 
 
-\begin{choice}{A}[]
+\begin{choice}{D}[]
 	700M组网采用的子帧配比是
 	\begin{tasks}(1)
 		\task DDDSUDDSUU S时隙6：4：4
@@ -187,7 +189,7 @@
 \end{choice}
 
 
-\begin{choice}{C}[]
+\begin{choice}{D}[]
 	以下选项中，属于GBDT和AdaBoost区别的是
 	\begin{tasks}(1)
 		\task 二者无区别
@@ -197,7 +199,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{B}[]
+\begin{choice}{A}[]
 	根据电话号码编号计划规则，其中中国的国家号码标识为
 	\begin{tasks}(4)
 		\task 86
@@ -207,19 +209,21 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{B}[]
+\begin{choice}{C}[]
 	在5G NR帧结构中，当SCS子载波间隔为30kHZ时一个子帧包含的符号数为
 	\begin{tasks}(2)
 		\task 48个
 		\task 56个
-		\task 最大8T8R
-		\task 最大32T32R
+		\task 28个
+		\task 14个
 	\end{tasks}
 \end{choice}
+\begin{solution}
+	SCS子载波间隔为30Khz时，一个子帧包含2个时隙，1个时隙包含14个OFDM符号，则1个子帧包含28个符号数。
+\end{solution}
 
 
-
-\begin{choice}{D}[]
+\begin{choice}{B}[]
 	以下采用的基于竞争的随机接入的是
 	\begin{tasks}(2)
 		\task RRC重建
@@ -229,7 +233,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{A}[]
+\begin{choice}{D}[]
 	5G NR系统中，UE可通过哪条系统消息获取小区重选公共信息
 	\begin{tasks}(4)
 		\task SIB4
@@ -252,7 +256,7 @@
 
 
 
-\begin{choice}{A}[]
+\begin{choice}{B}[]
 	C-V2X中，车辆与基站之间直连通信接口为（）
 	\begin{tasks}(2)
 		\task Xn
@@ -264,7 +268,7 @@
 
 
 
-\begin{choice}{D}[]
+\begin{choice}{C}[]
 	5G网络基本架构，AMF与gNB之间的接口是
 	\begin{tasks}(4)
 		\task Xn
@@ -287,7 +291,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{B}[]
+\begin{choice}{C}[]
 	以下选项中，不属于AI赋能5G方面应用的是
 	\begin{tasks}(4)
 		\task 网络优化
@@ -297,7 +301,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{B}[]
+\begin{choice}{C}[]
 	以下选项中，哪一个选项属于财务会计核算成本的方法
 	\begin{tasks}(2)
 		\task 作业变动法
@@ -319,7 +323,7 @@
 \end{choice}
 
 
-\begin{choice}{A}[]
+\begin{choice}{B}[]
 	在5G NR PRACH规划中，Format0-3对应ZC序列长度为
 	\begin{tasks}(2)
 		\task 138
@@ -331,7 +335,7 @@
 
 
 
-\begin{choice}{D}[]
+\begin{choice}{B}[]
 	NR 3.5G组网时，终端目前实现的最大流数为
 	\begin{tasks}(2)
 		\task UL 1流 DL 2流
@@ -342,7 +346,7 @@
 \end{choice}
 
 
-\begin{choice}{A}[]
+\begin{choice}{D}[]
 	以下关于产品全成本概念下的变动成本表示正确的是
 	\begin{tasks}(1)
 		\task 产品变动成本=产品生产变动成本+产品服务变动成本
@@ -364,7 +368,7 @@
 \end{choice}
 
 
-\begin{choice}{D}[]
+\begin{choice}{C}[]
 	以下选项中关于复杂技术问题和复杂工程问题描述错误的是
 	\begin{tasks}(1)
 		\task 解决复杂技术问题以技术性的突破为目的
@@ -376,7 +380,7 @@
 
 \section{多选题（共20小题，共80分）}
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;ABCD\;}[]
 	属于5G超密集组网应用场景有
 	\begin{tasks}(2)
 		\task 商业中心
@@ -396,7 +400,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;ACD\;}[]
 	SIB1中包含的关键信息有
 	\begin{tasks}(2)
 		\task 小区是否禁止接入
@@ -405,7 +409,9 @@
 		\task 小区服务的PLMN列表
 	\end{tasks}
 \end{choice}
-
+\begin{solution}
+  B选项属于MIB的关键信息。
+\end{solution}
 \begin{choice}{\;ABC\;}[]
 	以下哪些选项属于NR-V2X可支持传输模式
 	\begin{tasks}(1)
@@ -417,7 +423,7 @@
 \end{choice}
 
 
-\begin{choice}{\;ABCD\;}[]
+\begin{choice}{\;ACD\;}[]
 	5G网络中物理下行参考信号DM-RS可能伴随哪些物理信道传输
 	\begin{tasks}(4)
 		\task PDCCH
@@ -437,7 +443,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;BD\;}[]
+\begin{choice}{\;ABD\;}[]
 	下面有关5G室分解决方案中说法正确的是
 	\begin{tasks}(1)
 		\task 针对高容量，大面积。高价值的场景可采用数字化室分（皮站）进行解决。
@@ -448,18 +454,20 @@
 \end{choice}
 
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;BD\;}[]
 	基站的网关地址为120.1.1.25，掩码为255.255.255.248，则以下地址可以作为基站IP地址的选项为
 	\begin{tasks}(2)
 		\task 120.1.1.25
 		\task 120.1.1.27
-		\task 120.1.1.24	
+		\task 120.1.1.24
 		\task 120.1.1.29
 	\end{tasks}
 \end{choice}
+\begin{solution}
+ 网关地址和子网掩码相与得到120.1.1.24。广播地址为120.1.1.31。可用IP地址为24到31之间，记得要除去网关地址。
+\end{solution}
 
-
-\begin{choice}{\;BC\;}[]
+\begin{choice}{\;BD\;}[]
 	5G系统消息中，哪些系统消息可以是周期广播也可以是订阅广播
 	\begin{tasks}(2)
 		\task MIB
@@ -470,7 +478,7 @@
 \end{choice}
 
 
-\begin{choice}{\;AD\;}[]
+\begin{choice}{\;ACD\;}[]
 	以下选项中，属于Boosting提升法的选项是
 	\begin{tasks}(1)
 		\task 随机森林
@@ -501,7 +509,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;BD\;}[]
+\begin{choice}{\;CD\;}[]
 	下面有关5G频谱共享，说法正确的是
 	\begin{tasks}(1)
 		\task 只共享基站不共享传输核心网
@@ -511,7 +519,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;ABC\;}[]
 	下面哪个环节产生的成本属于变动成本
 	\begin{tasks}(2)
 		\task 生产安装环节
@@ -521,7 +529,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;AD\;}[]
+\begin{choice}{\;ABD\;}[]
 	有关C-V2X说法正确的是
 	\begin{tasks}(2)
 		\task X可以代表人车网等
@@ -531,7 +539,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;BCD\;}[]
+\begin{choice}{\;ABD\;}[]
 	5G系统中，当子载波间隔为1.25KHz和5KHz时，可以配置的Format格式有
 	\begin{tasks}(4)
 		\task 0
@@ -540,8 +548,10 @@
 		\task 2
 	\end{tasks}
 \end{choice}
-
-\begin{choice}{\;ABD\;}[]
+\begin{solution}
+format格式有{0，1，2，3}
+\end{solution}
+\begin{choice}{\;ABC\;}[]
 	以下选项中，属于决策树求解算法的是
 	\begin{tasks}(4)
 		\task  C4.5
@@ -551,7 +561,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;ACD\;}[]
 	5ms帧结构配比DDDSUDDSUU，S配比为10：2：2，下面说法正确的是
 	\begin{tasks}(2)
 		\task 2.5ms双周期
@@ -571,7 +581,7 @@
 	\end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;ABCD\;}[]
 	以下选项中，会影响用户业务速率的是
 	\begin{tasks}(1)
 		\task 流数
@@ -586,12 +596,12 @@
 
 \section{判断题（共10小题，共30分）}
 
-\begin{choice}{\;正确\;}[]
+\begin{choice}{\;错误\;}[]
 	SCS越大，一个子帧时隙数越多，每个符号时间越长
 \end{choice}
 
 
-\begin{choice}{\;错误\;}[]
+\begin{choice}{\;正确\;}[]
 	控制与转发分离：控制面进行统一的策略控制，转发面更关注转发功能的实现，以软件来驱动，实现了软硬件的解耦
 \end{choice}
 
@@ -603,7 +613,7 @@
 	新产品的需求由外部需求和内部需求两大类所组成
 \end{choice}
 
-\begin{choice}{\;正确\;}[]
+\begin{choice}{\;错误\;}[]
 	SSB可配置的波束数量和子帧配比有关系
 \end{choice}
 
@@ -613,7 +623,7 @@
 \end{choice}
 
 
-\begin{choice}{\;错误\;}[]
+\begin{choice}{\;正确\;}[]
 	UE测量报告已经触发，但没收到基站下发切换命令，原因可能是目标基站拥塞
 
 \end{choice}
@@ -623,13 +633,16 @@
 
 \end{choice}
 
-\begin{choice}{\;正确\;}[]
+\begin{choice}{\;错误\;}[]
 
 	5G NR中信令承载DRB被定义为用于传递RRC和NAS消息的无线承载
 \end{choice}
 
+\begin{solution}
+	5G NR中信令承载SRB被定义为用于传递RRC和NAS消息的无线承载
+\end{solution}
 
-\begin{choice}{\;错误\;}[]
+\begin{choice}{\;正确\;}[]
 	CSI参考信号（CSI-RS）用于信道测量和反馈，而解调参考信号（DMRS）用于数据解调
 
 \end{choice}

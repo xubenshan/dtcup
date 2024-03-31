@@ -5,14 +5,16 @@
 \date{2023年4月08日}{}{\href{https://qm.qq.com/q/UPbGudx8cK}{\textbf{才疏学浅的小熊}}}
 {}
 {https://ctan.org/pkg/litesolution}{CTAN}
-{https://github.com/xubenshan}{GitHub}
+{https://github.com/xubenshan/dtcup}{GitHub}
 
-注：答案仅供参考，若有问题，请联系我。QQ号：1782622988
+
+源码已上传至Github，有需要的同学可以自取，见右侧二维码。
+
 \section{单选题（共30道题，共90分）}
 
 
 
-\begin{choice}{B}[节能]
+\begin{choice}{B}[]
     按照信息传递的方向和时间关系，则普通对讲机采用的通信方式为
     \begin{tasks}(2)
         \task 并行传输
@@ -22,8 +24,14 @@
     \end{tasks}
 \end{choice}
 
+\begin{solution}*
+    半双工就是可以收发，但不能同时。
+    \sokka{B}
 
-\begin{choice}{B}[5G无线技术]
+\end{solution}
+
+
+\begin{choice}{D}[]
     5G功率控制方式分为闭环功率控制和开环功率控制如下选项中仅支持开环功率控制的是
     \begin{tasks}(4)
         \task PUCCH
@@ -35,8 +43,7 @@
 
 
 
-
-\begin{choice}{A}[5G无线技术]
+\begin{choice}{C}[]
     下面哪个信令可以携带SCG Add或PSCell Change相关SCG配置
     \begin{tasks}(1)
         \task NR侧的RRC Reconfiguration
@@ -47,7 +54,7 @@
 \end{choice}
 
 
-\begin{choice}{D}[5G协议与信令]
+\begin{choice}{D}[]
     NR系统中，以下选项中属于AMF网元的主要功能的是
     \begin{tasks}(2)
         \task UE IP地址分配和管理
@@ -56,7 +63,11 @@
         \task 注册管理
     \end{tasks}
 \end{choice}
+\begin{solution}*
+    ABC属于SMF网元的功能。
+    \sokka{D}
 
+\end{solution}
 % \begin{solution}
 %     R15版本是第一代5G的版本。PDSCH（物理下行数据信道）支持的最大调制方式为256QAM。在R16版本中又增加了1024QAM调制。
 
@@ -69,7 +80,7 @@
 %               \sokka{D}
 %     \end{itemize}
 % \end{solution}
-\begin{choice}{B}[节能]
+\begin{choice}{D}[]
     5G NR系统中，RRC INACTVE状态，称为RRC挂起状态，如果要恢复业务，则会出现哪条信令
     \begin{tasks}(1)
         \task RRC connection request
@@ -79,7 +90,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{D}[]
+\begin{choice}{B}[]
     用户需要性价比高的产品，产品具有双重属性，即经济属性和
     \begin{tasks}(2)
         \task 成本属性
@@ -92,7 +103,7 @@
 
 
 
-\begin{choice}{D}[最大分辨力]
+\begin{choice}{A}[]
     随机森林是决策树的集成，是一种什么方法
     \begin{tasks}(4)
         \task Bagging
@@ -103,7 +114,7 @@
 \end{choice}
 
 
-\begin{choice}{B}[双缝干涉]
+\begin{choice}{D}[]
     工程实践中安全问题必须认真对待，下列操作或者行为不符合安全规划的是
     \begin{tasks}(1)
         \task 施工人员上塔前检查安全绳及配备防坠器
@@ -132,7 +143,7 @@
 %\vspace{-.75em}
 
 
-\begin{choice}{A}[迈克尔逊干涉仪]
+\begin{choice}{D}[]
     IPMT流程第二阶段的输出成果是什么
     \begin{tasks}(2)
         \task 新产品
@@ -143,7 +154,7 @@
 \end{choice}
 
 
-\begin{choice}{A}[光栅]
+\begin{choice}{D}[]
     若通过专利检索发现自己的核心技术已经被他人申请专利，一般采用的措施不包括
     \begin{tasks}(2)
         \task 专利避让
@@ -153,7 +164,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{A}[]
+\begin{choice}{B}[]
     技术创新方式有多种，其中最有技术难度的创新方式为
     \begin{tasks}(4)
         \task 改进创新
@@ -186,7 +197,7 @@
 \end{choice}
 
 
-\begin{choice}{C}[]
+\begin{choice}{A}[]
     NR系统中，PUCCH的format3格式频域上支持N个PRB，其中如下N的取值中不符合规范的是
     \begin{tasks}(2)
         \task 7
@@ -195,8 +206,12 @@
         \task 6
     \end{tasks}
 \end{choice}
+\begin{solution}
+    N的取值范围为{1，2，3，4，5，6，8，9，10，12，15，16}。
+    \sokka{A}
 
-\begin{choice}{B}[]
+\end{solution}
+\begin{choice}{C}[]
     下列哪个选项中不是5G NR中定义的子载波间隔
     \begin{tasks}(4)
         \task 30khz
@@ -206,10 +221,10 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{B}[]
+\begin{choice}{A}[]
     在5G系统中，700M组网最大天线端口数为
     \begin{tasks}(2)
-        \task 最大64TR
+        \task 最大4T4R
         \task 最大64T64R
         \task 最大8T8R
         \task 最大32T32R
@@ -227,19 +242,28 @@
         \task 839
     \end{tasks}
 \end{choice}
+\begin{solution}*
+    \begin{itemize}
+        \item  format0-3： ZC序列长度为839
+        \item  format4：ZC序列长度为139
 
-\begin{choice}{A}[]
+    \end{itemize}
+
+    \sokka{D}
+
+\end{solution}
+\begin{choice}{C}[]
     OffsetToPointA是NR系统的关键参数，单位为RB，FR1中每个RB带宽配置可以为
     \begin{tasks}(4)
         \task 180khz
         \task 360khz
-        \task 和$μ$有关
+        \task 和$\mu$ 有关
         \task 720khz
     \end{tasks}
 \end{choice}
 
 
-\begin{choice}{A}[]
+\begin{choice}{D}[]
     5NR系统中，关于5G重叠覆盖问题定义，下列说法正确的是
     \begin{tasks}(1)
         \task NR网络的重叠覆盖沿用LTE的重叠覆盖判断方法，即同一采样点有3个或以上的同频信号，3个信号差值在5dB以内。
@@ -251,7 +275,7 @@
 
 
 
-\begin{choice}{A}[]
+\begin{choice}{C}[]
     根据产品全成本的概念，以下作业环节对应产生开发成本的为
     \begin{tasks}(2)
         \task 产品中试
@@ -263,7 +287,7 @@
 
 
 
-\begin{choice}{D}[]
+\begin{choice}{A}[]
     基站功耗一般分为AAU和BBU两大部分，其中，AAU的功耗占整机的
     \begin{tasks}(4)
         \task 0.9
@@ -276,7 +300,7 @@
 
 
 
-\begin{choice}{A}[]
+\begin{choice}{C}[]
     以下哪种不是通道关断节能生效后可能产生的影响
     \begin{tasks}(2)
         \task 小区覆盖范围减小
@@ -286,7 +310,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{B}[]
+\begin{choice}{C}[]
     C-V2X中，基于LTE实现的PC5-U协议栈，没有下面哪个协议层
     \begin{tasks}(4)
         \task MAC
@@ -307,7 +331,7 @@
 \end{choice}
 
 
-\begin{choice}{C}[]
+\begin{choice}{B}[]
     如果决策树过度拟合训练集，以下不属于消除过拟合的选项是
     \begin{tasks}(1)
         \task 采用随机森林，集成学习
@@ -318,7 +342,7 @@
 \end{choice}
 
 
-\begin{choice}{A}[]
+\begin{choice}{B}[]
     以下选项中，不属于蜂窝移动通信应用场景的是
     \begin{tasks}(2)
         \task 路云通信
@@ -330,7 +354,7 @@
 
 
 
-\begin{choice}{D}[]
+\begin{choice}{C}[]
     下面有关电话系统呼叫消息解释不正确的是
     \begin{tasks}(2)
         \task ACM是地址全消息
@@ -340,8 +364,13 @@
     \end{tasks}
 \end{choice}
 
+\begin{solution}*
+   ANC是被叫用户摘机。
+    \sokka{C}
 
-\begin{choice}{A}[]
+\end{solution}
+
+\begin{choice}{B}[]
     国内运营商2.6G组网采用的子帧配比及特殊时隙配置为
     \begin{tasks}(1)
         \task DDDSUDDSUU S时隙10：2：2
@@ -352,7 +381,7 @@
 \end{choice}
 
 
-\begin{choice}{C}[]
+\begin{choice}{A}[]
     5G系统中，NSA场景下，当SRB3未建立时，SCG的测量结果，UE通过下面哪条消息上报给网络
     \begin{tasks}(1)
         \task UL Information Transfer MRDC
@@ -375,7 +404,7 @@
 
 \section{多选题（共20小题，共80分）}
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;ABCD\;}[]
     以下选项中，属于集成学习方法的选项是
     \begin{tasks}(2)
         \task Boosting
@@ -395,7 +424,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;ACD\;}[]
     5G定义了信道栅格的概念，每个频段都定义了信道栅格的大小，如下选项属于FR1定义的信道栅格的是
     \begin{tasks}(1)
         \task 30khz
@@ -405,7 +434,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;AC\;}[]
     关于产品成本描述，以下说法正确的是
     \begin{tasks}(1)
         \task 在财务会计中，产品形成中及产品交付后仍由交付企业支付的各种生产，服务费用之和为产品成本
@@ -416,7 +445,7 @@
 \end{choice}
 
 
-\begin{choice}{\;ABCD\;}[]
+\begin{choice}{\;ACD\;}[]
     5G R15版本，PDCCH信道CCE聚合等级可能为
     \begin{tasks}(4)
         \task 2
@@ -425,7 +454,11 @@
         \task 1
     \end{tasks}
 \end{choice}
+\begin{solution}
+    CCE聚合等级为{1，2，4，8，16}。
+    \sokka{A}
 
+\end{solution}
 \begin{choice}{\;ACD\;}[]
     NR中T300定时器下面说法正确的是
     \begin{tasks}(1)
@@ -436,7 +469,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;BD\;}[]
+\begin{choice}{\;AB\;}[]
     5G NR参考信号设计中，关于DMRS描述正确的是
     \begin{tasks}(1)
         \task 当PDSCH/PUSCH采用TypeB调度时，DMRS从调度的起始符号开始传输。
@@ -445,9 +478,13 @@
         \task 在单符号前置DMRS时，最多可以增加2组附加导频。
     \end{tasks}
 \end{choice}
+\begin{solution}
+    CD选项应为三个。
+    \sokka{AB}
 
+\end{solution}
 
-\begin{choice}{\;ABC\;}[]
+\begin{choice}{\;ABCD\;}[]
     在5G网络优化数据分析中，属于机器学习流程的选项是
     \begin{tasks}(4)
         \task 数据收集
@@ -458,7 +495,7 @@
 \end{choice}
 
 
-\begin{choice}{\;BC\;}[]
+\begin{choice}{\;CD\;}[]
     V2X技术在国际上存在两大阵营，一种是IEEE主导的，一种是3GPP主导的，分别为
     \begin{tasks}(4)
         \task SAE
@@ -469,7 +506,7 @@
 \end{choice}
 
 
-\begin{choice}{\;AD\;}[]
+\begin{choice}{\;ABC\;}[]
     关于5G基站设备的供电类型，下面描述不正确的是
     \begin{tasks}(1)
         \task BBU一般为交流110V供电
@@ -478,9 +515,13 @@
         \task BBU一般为直流-48V供电
     \end{tasks}
 \end{choice}
+\begin{solution}
+    AAU，BBU都是直流-48V供电。
+    \sokka{ABC}
 
+\end{solution}
 
-\begin{choice}{\;ABCD\;}[]
+\begin{choice}{\;ABD\;}[]
     5G网络逻辑架构3个平面为
     \begin{tasks}(4)
         \task 接入平面
@@ -490,7 +531,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABCD\;}[]
+\begin{choice}{\;ABC\;}[]
     以下选项中，关于5G寻呼的说法正确的是
     \begin{tasks}(1)
         \task PO是一套PDCCH监听机会，由多个子帧，或OFDM符号组成
@@ -500,7 +541,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;BD\;}[]
+\begin{choice}{\;AB\;}[]
     5G NR系统中，MIB消息中包含以下哪些内容
     \begin{tasks}(2)
         \task 系统帧号
@@ -510,7 +551,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;ABCD\;}[]
     集成产品开发模式把产品策划和产品立项都看作为投资行为，战略决策及企业高层的决策行为，IPMT进行决策的关键内容包括哪些
     \begin{tasks}(2)
         \task 产品最终综合竞争力
@@ -530,7 +571,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;BCD\;}[]
+\begin{choice}{\;AD\;}[]
     5G系统消息中，哪些系统消息一定是周期广播
     \begin{tasks}(4)
         \task SIB1
@@ -540,7 +581,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;CD\;}[]
     SA组网随机接入分为两种，即基于竞争的随机接入和非竞争的随机接入，如下选项可以是基于非竞争随机接入的场景为
     \begin{tasks}(1)
         \task 波束失败恢复
@@ -550,7 +591,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;ABC\;}[]
     在5G基站传输配置中，需要添加路由关系，如下选中为商用基站必须添加的路由为
     \begin{tasks}(2)
         \task 基站到AMF的路由
@@ -560,7 +601,7 @@
     \end{tasks}
 \end{choice}
 
-\begin{choice}{\;ABD\;}[]
+\begin{choice}{\;CD\;}[]
     5G NR中，常规CP，子载波配置$μ$值不同会影响
     \begin{tasks}(1)
         \task 每时隙符号数
@@ -580,7 +621,10 @@
     \end{tasks}
 \end{choice}
 
+\begin{solution}
+    开启符号节能的条件：低于低门限，高于高门限。
 
+\end{solution}
 
 
 \section{判断题（共10小题，共30分）}
@@ -590,7 +634,7 @@
 \end{choice}
 
 
-\begin{choice}{\;错误\;}[]
+\begin{choice}{\;正确\;}[]
     切换过程的随机接入过程可以采用非竞争也可以采用竞争随机接入方式
 \end{choice}
 
@@ -598,7 +642,7 @@
     对讲机既可以工作在单工方式也可以工作在双工方式
 \end{choice}
 
-\begin{choice}{\;正确\;}[]
+\begin{choice}{\;错误\;}[]
     管理会计主要是对产品进行财务管理，管理报表的使用者是企业外部的管理者
 \end{choice}
 
@@ -606,18 +650,22 @@
     在产品设计时不能只追求技术的先进性，因为任何产品都有技术和经济双重属性，并且技术先进要与产品安全，可靠权衡
 \end{choice}
 
-\begin{choice}{\;错误\;}[]
+\begin{choice}{\;正确\;}[]
     CORESET内，CCE-to-REG支持交织和非交织的映射关系
 
 \end{choice}
 
 
 \begin{choice}{\;错误\;}[]
-    5G NR PRACH资源在频域上的个数，也称为FDM个数，配置范围最大值时16
+    5G NR PRACH资源在频域上的个数，也称为FDM个数，配置范围最大值是16
 
 \end{choice}
+\begin{solution}
+    配置范围的最大值为8.
+    \sokka{A}
 
-\begin{choice}{\;错误\;}[]
+\end{solution}
+\begin{choice}{\;正确\;}[]
     基站根据不同UE的SRS判断UE间上行信道的相关性，并选择不相关的UE进行MU-MIMO配对
 
 \end{choice}
@@ -628,7 +676,7 @@
 \end{choice}
 
 
-\begin{choice}{\;错误\;}[]
+\begin{choice}{\;正确\;}[]
     SSBlock用于下行同步信号和广播信号的发送，重复周期为10ms，时域上占据0时隙9-12符号，频域上占据20个RB，位于272个RB的头部位置
 
 \end{choice}
